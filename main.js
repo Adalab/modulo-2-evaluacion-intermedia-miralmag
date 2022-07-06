@@ -22,7 +22,7 @@ const numberInputValue = numberInput.value;
     hint.innerHTML = `Pista: Demasiado alto`
     } if (numberInputValue < randomNumber) {
     hint.innerHTML = `Pista: Demasiado bajo`
-    } if (numberInputValue < 0) {
+    } if (numberInputValue <= 0) {
     hint.innerHTML = `El número debe estar entre 1 y 100`
     } if (numberInputValue > 100) {
     hint.innerHTML = `El número debe estar entre 1 y 100`
