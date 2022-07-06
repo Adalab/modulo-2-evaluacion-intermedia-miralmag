@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 40px;
+    color: rgb(117, 113, 113);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+}
+
+.number-input{
+    background-color: rgb(236, 235, 235);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 6px 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(87, 224, 178);
+    color: white;
+}
+
+.hint{
+    border: solid 2px rgb(179, 175, 175);
+    padding: 5px;
+    max-width: 500px;
+}
+
+.counter{
+    border: solid 2px rgb(179, 175, 175);
+    padding: 5px;
+    max-width: 500px;
+}
