@@ -15,8 +15,8 @@ function getRandomNumber(max) {
     console.log(randomNumber);
 
 function hintMessage() {
-const numberInputValue = numberInput.value;
-    if (numberInputValue == randomNumber) {
+const numberInputValue = parseInt(numberInput.value);
+    if (numberInputValue === randomNumber) {
     hint.innerHTML = `¡Has ganado, campeona!`
     } if (numberInputValue > randomNumber) {
     hint.innerHTML = `Pista: Demasiado alto`
